@@ -7,7 +7,7 @@
 " pretty much no syntax-specific variations in color and is, instead, focusing
 " on providing variations for the editor elements themselves (e.g., line
 " numbers, color column, etc).
-" 
+"
 " This theme can toggle between light and dark mode by setting the `background`
 " variable to "light" or "dark".
 "
@@ -27,21 +27,21 @@ let s:everything = [
       \ "Comment",
       \ "Conceal",
       \ "Constant",
-      \ "Cursor", 
+      \ "Cursor",
       \ "CursorColumn",
       \ "CursorIM",
       \ "CursorLine",
       \ "CursorLineNr",
       \ "CursorLineNr",
-      \ "DiffAdd", 
+      \ "DiffAdd",
       \ "DiffChange",
       \ "DiffDelete",
       \ "DiffText",
       \ "Directory",
       \ "Error",
-      \ "ErrorMsg", 
+      \ "ErrorMsg",
       \ "FoldColumn",
-      \ "Folded", 
+      \ "Folded",
       \ "Identifier",
       \ "IncSearch",
       \ "LineNr",
@@ -60,9 +60,9 @@ let s:everything = [
       \ "SignColumn",
       \ "Special",
       \ "SpecialKey",
-      \ "SpellBad", 
-      \ "SpellCap",  
-      \ "SpellLocal", 
+      \ "SpellBad",
+      \ "SpellCap",
+      \ "SpellLocal",
       \ "SpellRare",
       \ "Statement",
       \ "StatusLine",
@@ -73,7 +73,7 @@ let s:everything = [
       \ "Title",
       \ "Todo",
       \ "Type",
-      \ "Underlined", 
+      \ "Underlined",
       \ "VertSplit",
       \ "Visual",
       \ "VisualNOS",
@@ -86,7 +86,7 @@ let s:inverted_items = [
       \ "CursorIM",
       \ "CursorColunmn",
       \ "CursorLineNr",
-      \ "Visual", 
+      \ "Visual",
       \ "StatusLine"
       \ ]
 
@@ -129,11 +129,11 @@ for s:item in s:everything
 endfor
 
 for s:item in s:inverted_items
-  exec "hi " . s:item . " guifg=" . s:bg . " guibg=" . s:fg 
+  exec "hi " . s:item . " guifg=" . s:bg . " guibg=" . s:fg
 endfor
 
 for s:item in s:sub_inverted_items
-  exec "hi " . s:item . " guifg=" . s:bg . " guibg=" . s:subbg 
+  exec "hi " . s:item . " guifg=" . s:bg . " guibg=" . s:subbg
 endfor
 
 for s:item in s:special_items
