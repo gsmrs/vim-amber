@@ -43,7 +43,6 @@ let s:everything = [
       \ "FoldColumn",
       \ "Folded",
       \ "Identifier",
-      \ "IncSearch",
       \ "LineNr",
       \ "MatchParen",
       \ "ModeMsg",
@@ -56,7 +55,6 @@ let s:everything = [
       \ "PmenuThumb",
       \ "PreProc",
       \ "Question",
-      \ "Search",
       \ "SignColumn",
       \ "Special",
       \ "SpecialKey",
@@ -87,7 +85,9 @@ let s:inverted_items = [
       \ "CursorColunmn",
       \ "CursorLineNr",
       \ "Visual",
-      \ "StatusLine"
+      \ "StatusLine",
+      \ "Search",
+      \ "IncSearch"
       \ ]
 
 let s:sub_inverted_items = [
